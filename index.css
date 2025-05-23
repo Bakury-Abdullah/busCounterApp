@@ -35,7 +35,7 @@ h2{
     width: 40em;
     margin: 0 auto;
     text-align: center;
-    background-image: url(blank-billboard-bus-stop-shelter-night.jpg);
+    background-image: url(../images/blank-billboard-bus-stop-shelter-night.jpg);
     background-size: cover;
     perspective: 500px;
     perspective-origin: 25% 55%;
@@ -50,7 +50,7 @@ h2{
         width: 355px;
         padding: 2em;
         background: #478ecc;
-        background-image: url(view-city-with-motion-effect.jpg);
+        background-image: url(../images/view-city-with-motion-effect.jpg);
         background-size: cover;
 }
 
