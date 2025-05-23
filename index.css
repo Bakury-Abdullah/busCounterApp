@@ -13,19 +13,20 @@ body{
     display: flex;
     justify-content: center;
     background: #E8EFF5;
+    color: aliceblue;
+    text-shadow: 0 0 20px #000;
 }
 
 .title{
     font-size: 1em;
     font-weight: 600;
-    color: #000;
     text-align: center;
+
 }
 
 h2{
     font-size: 1.2em;
     font-weight: 600;
-    color: #000;
 }
 
 .container{
@@ -37,16 +38,20 @@ h2{
     background-image: url(blank-billboard-bus-stop-shelter-night.jpg);
     background-size: cover;
     perspective: 500px;
+    perspective-origin: 25% 55%;
 }
 
 .perspective{
         transform-style: preserve-3d;
-        transform: rotateY(11deg) rotateZ(1deg) rotateX(2deg)
-        translateX(22em) translateY(10em);
+        transform: rotateY(10deg) rotateZ(0.4deg) rotateX(1deg)
+        translateX(22.6em) translateY(9.9em);
         position: relative;
-        height: 530px;
-        width: 320px;
+        height: 519px;
+        width: 355px;
         padding: 2em;
+        background: #478ecc;
+        background-image: url(view-city-with-motion-effect.jpg);
+        background-size: cover;
 }
 
 .counter{
@@ -57,11 +62,12 @@ h2{
     align-items: center;
 }
 button{
-    transform: rotateY(11deg) rotateZ(0deg) rotateX(2deg);
-    transform-style: preserve-3d;
     height: 2em;
     width: 6em;
     font-size: 24px;
     cursor: pointer;
 }
+
+
+
 
